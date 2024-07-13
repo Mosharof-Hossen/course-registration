@@ -18,3 +18,5 @@
 5.DaisyUI
 
 6.Use Fake Data
+
+pro
