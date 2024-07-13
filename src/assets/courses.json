@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Advanced C Programming",
+        "cover_img": "https://i.ibb.co/R95CYpy/Rectangle-2-2.png",
+        "short_description": "Master the advanced concepts of C programming, including memory management and complex algorithms, for efficient coding.",
+        "course_price": 20000,
+        "course_duration": 2
+    },
+    {
+        "id": 2,
+        "title": "Algorithm Design and Analysis",
+        "cover_img": "https://i.ibb.co/k64ZDRM/Rectangle-2-3.png",
+        "short_description": "Explore algorithm design techniques, optimization strategies, and performance analysis to solve complex computational problems effectively.",
+        "course_price": 25000,
+        "course_duration": 6
+    },
+    {
+        "id": 3,
+        "title": "Comprehensive C++ Programming",
+        "cover_img": "https://i.ibb.co/znPrkxB/Rectangle-2-4.png",
+        "short_description": "Gain in-depth knowledge of C++ programming, covering object-oriented concepts, data structures, and advanced features.",
+        "course_price": 30000,
+        "course_duration": 9
+    },
+    {
+        "id": 4,
+        "title": "Data Structures and Algorithms",
+        "cover_img": "https://i.ibb.co/r2LgC23/Rectangle-3.png",
+        "short_description": "Learn about various data structures and algorithms, their applications, and how to implement them in real-world scenarios.",
+        "course_price": 28000,
+        "course_duration": 3
+    },
+    {
+        "id": 5,
+        "title": "OOP with Python",
+        "cover_img": "https://i.ibb.co/125qBPf/Rectangle-2.png",
+        "short_description": "Understand the principles of object-oriented programming in Python and learn to design robust and reusable code.",
+        "course_price": 15000,
+        "course_duration": 7
+    },
+    {
+        "id": 6,
+        "title": "Software Engineering Principles",
+        "cover_img": "https://i.ibb.co/dPYNJVc/Rectangle-2-5.png",
+        "short_description": "Study the fundamental principles of software engineering, including project management, software design, testing, and maintenance.",
+        "course_price": 32000,
+        "course_duration": 12
+    },
+    {
+        "id": 7,
+        "title": "AWS Cloud Computing Essentials",
+        "cover_img": "https://i.ibb.co/PwH2BqB/Rectangle-3-1.png",
+        "short_description": "Introduction to AWS cloud computing services, architecture, and practical applications for building scalable cloud solutions.",
+        "course_price": 35000,
+        "course_duration": 8
+    },
+    {
+        "id": 8,
+        "title": "Database Management Systems",
+        "cover_img": "https://i.ibb.co/1rCW5Xv/Rectangle-2-1.png",
+        "short_description": "Learn the concepts of database management, SQL, and database design to efficiently store, retrieve, and manage data.",
+        "course_price": 22000,
+        "course_duration": 1
+    },
+    {
+        "id": 9,
+        "title": "Effective Problem Solving Techniques",
+        "cover_img": "https://i.ibb.co/YPbBY0D/Rectangle-2-6.png",
+        "short_description": "Enhance your problem-solving skills with proven techniques and practical exercises for tackling complex challenges.",
+        "course_price": 18000,
+        "course_duration": 3
+    }
+]
