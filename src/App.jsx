@@ -7,7 +7,6 @@ import Header from './Components/Header/Header'
 
 function App() {
   const [courses, setCourse] = useState([]);
-  const [remainingTime, setRemainingTime] = useState(20);
   const [credit, setCredit] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
@@ -21,18 +20,17 @@ function App() {
       alert("You have not enough Credit Hour")
       return
     }
-    setCredit(credit + course.course_duration)
+    setTotalPrice(totalPrice + course.course_price);
+    setCredit(credit + course.course_duration);
     setCourse([...courses, course]);
   }
-  console.log(courses);
-  console.log(credit);
   return (
     <>
       <div className='container mx-auto px-8'>
         <Header></Header>
         <main className='flex flex-col-reverse md:flex-row'>
           <Courses handleSelectCourse={handleSelectCourse}></Courses>
-          <CartList courses={courses} credit = {credit}></CartList>
+          <CartList courses={courses} credit = {credit} totalPrice = {totalPrice}></CartList>
         </main>
       </div>
     </>
